@@ -2,7 +2,7 @@
 
 ## Project: Predicting Boston Housing Prices
 
-### see for project info
+### see https://m00nd00r.github.io/Boston-Housing/ for project info
 
 ### Install
 
