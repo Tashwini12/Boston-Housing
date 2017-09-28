@@ -29,7 +29,7 @@ In a terminal or command window, navigate to the top-level project directory `bo
 jupyter notebook boston_housing.ipynb
 ```
 
-This will open the Jupyter Notebook software and project file in your browser.
+This will open the Jupyter Notebook software and project file in your .
 
 ### Data
 
