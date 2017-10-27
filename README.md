@@ -14,7 +14,7 @@ Instructions:
 	
 	```	
 		git clone https://github.com/m00nd00r/Boston-Housing.git
-		cd Student-Intervention
+		cd Boston-Housing
 	```
     
 2. Obtain the necessary Python packages and activate the working environment.  
