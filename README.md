@@ -47,7 +47,7 @@ This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
 
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 4 features can be found in the `housing.csv` dataset file. This dataset is a modified version of the Boston Housing dataset maintained as one of [Sci-Kit Learn's](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html) datasets.
+The modified Boston housing dataset consists of 489 data points, with each datapoint having 4 features can be found in the `housing.csv` dataset file. This dataset is a modified version of the Boston Housing dataset maintained as one of [UCI Machine Learning Repository's](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/) datasets.
 
 **Features**
 1.  `RM`: average number of rooms per dwelling
