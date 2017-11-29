@@ -31,7 +31,7 @@ def ModelLearning(X, y):
     for k, depth in enumerate([1,3,6,10]):
         
         # Create a Decision tree regressor at max_depth = depth
-        regressor = DecisionTreeRegressor(max_depth = depth)
+        regressor = DecisionTreeRegressor(max_depth = depth, random_state=0)
 
         # Calculate the training and testing scores
         sizes, train_scores, test_scores = learning_curve(regressor, X, y, \
@@ -77,7 +77,7 @@ def ModelComplexity(X, y):
     max_depth = np.arange(1,11)
 
     # Calculate the training and testing scores
-    train_scores, test_scores = validation_curve(DecisionTreeRegressor(), X, y, \
+    train_scores, test_scores = validation_curve(DecisionTreeRegressor(random_state = 0), X, y, \
         param_name = "max_depth", param_range = max_depth, cv = cv, scoring = 'r2')
 
     # Find the mean and standard deviation for smoothing
